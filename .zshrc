@@ -152,4 +152,8 @@ alias gd='git diff'
 alias gc='git commit'
 alias gp='git push'
 
-
+# Show contents of the directory after changing to it
+function cl () {
+	builtin cd "$1"
+	ll
+}
