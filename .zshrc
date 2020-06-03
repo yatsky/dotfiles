@@ -135,3 +135,14 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
 alias ainstall='sudo apt-get install'
+# from: https://victoria.dev/blog/how-to-do-twice-as-much-with-half-the-keystrokes-using-.bashrc/
+# List contents with colors for file types:
+# (A)lmost all hidden files (without . and ..)
+# in (C)olumns, with class indicators(F)
+alias ls='ls --color=auto -ACF'
+# List contents with colors for file types:
+# (A)lmost all hidden files (without . and ..)
+# use (l)ong listing format
+# with class indicators (F)
+alias ll='ls --color=auto -AlF'
+
