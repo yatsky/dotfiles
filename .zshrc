@@ -127,6 +127,9 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
 export DISPLAY=:0.0
 export LIBGL_ALWAYS_INDIRECT=1
 
+# Set default editor
+export EDITOR=vim
+
 alias python=python3
 # ## a quick way to get out of current directory ##
 alias ..='cd ..'
