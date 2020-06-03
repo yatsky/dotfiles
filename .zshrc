@@ -145,4 +145,7 @@ alias ls='ls --color=auto -ACF'
 # use (l)ong listing format
 # with class indicators (F)
 alias ll='ls --color=auto -AlF'
+# Git aliases
+alias gs='git status'
+alias gd='git diff'
 
