@@ -133,3 +133,5 @@ alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
+
+alias ainstall='sudo apt-get install'
