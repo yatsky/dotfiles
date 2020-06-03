@@ -146,6 +146,10 @@ alias ls='ls --color=auto -ACF'
 # with class indicators (F)
 alias ll='ls --color=auto -AlF'
 # Git aliases
+alias ga='git add'
 alias gs='git status'
 alias gd='git diff'
+alias gc='git commit'
+alias gp='git push'
+
 
