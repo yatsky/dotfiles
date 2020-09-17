@@ -133,8 +133,8 @@ export EDITOR=vim
 alias python=python3
 # ## a quick way to get out of current directory ##
 alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
 alias ainstall='sudo apt-get install'
@@ -155,8 +155,13 @@ alias gd='git diff'
 alias gc='git commit'
 alias gp='git push'
 
+alias devenv='cd /mnt/c/Users/thoma/Dev/'
+
 # Show contents of the directory after changing to it
 function cl () {
 	builtin cd "$1"
 	ll
 }
+
+# Created by `userpath` on 2020-09-17 01:34:24
+export PATH="$PATH:/home/thomas/.local/bin"
